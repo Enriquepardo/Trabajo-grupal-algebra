@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="../files/styles.css">
         <title>Conicas</title>
-
     </head>
     <body>
-        <h1>Pagina para cónicas</h1>
-        <h4>En esta pagina podremos ver como se grafican las formas cuadraticas que introduzcamos para luego ver un ejemplo en otra pagina de como se aplican a la arquitectura.</h4>
-        <p>Cuaderno de google colabs para ver las <a>cónicas</a> de ejemplo:</p>
-        <a href="https://colab.research.google.com/drive/1lwbUH_3CcBVGvSDptOL8GaRH66FMTYI5?hl=es" target="_blank"><button style="background-color: rgb(0, 0, 0); color: white;">Cuaderno de conicas</button></a><br>
-        <p>Volver a la página principal aqui:</p>
-        <a href="./index.html"><button style="background-color: rgb(0, 0, 0); color: white;">Volver</button></a>
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="../images/logo.jpg" alt="logo de la universidad">
+                <h3 class="trabajo grupal">Trabajo algebra lineal</h3>
+            </a>
+            <nav>
+                <a href="./index.html" class="nav-link">Inicio</a>
+                <a href="./conicas.html" class="nav-link">Cónicas</a>
+                <a href="#" class="nav-link">Más información</a>
+            </nav>
+        </header>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.display = "none";
+            } else {
+                document.getElementById("navbar").style.display = "block";
+            }
+            }
+        </script>
+        <div class="container">
+            <h1>Pagina para visualizar cónicas y cuádricas</h1>
+            <h4>En esta página podremos ver como se grafican las formas cuadráticas que introduzcamos para luego ver un ejemplo en otra página de como se aplican a la arquitectura.</h4>
+        </div>  
     </body>
     
 </html>
