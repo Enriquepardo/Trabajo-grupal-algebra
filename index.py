@@ -7,7 +7,7 @@ print(r'pip install -r ".\requirements.txt" ')
 
 
 def abrir_localhost():
-    url = 'http://127.0.0.1:5500/templates/index.html'  # Cambia el número de puerto si es necesario
+    url = 'http://127.0.0.1:5500/templates/index.html'  
     webbrowser.open(url)
 
 
