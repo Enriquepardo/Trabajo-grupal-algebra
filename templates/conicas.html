@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
         <link rel="stylesheet" href="../files/styles.css">
         <title>Conicas</title>
     </head>
@@ -24,17 +24,25 @@
             window.onscroll = function() {scrollFunction()};
 
             function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.display = "none";
-            } else {
-                document.getElementById("navbar").style.display = "block";
-            }
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                    document.getElementById("navbar").style.display = "none";
+                } else {
+                    document.getElementById("navbar").style.display = "block";
+                }
             }
         </script>
         <div class="container">
             <h1>Pagina para visualizar cónicas y cuádricas</h1>
-            <h4>En esta página podremos ver como se grafican las formas cuadráticas que introduzcamos para luego ver un ejemplo en otra página de como se aplican a la arquitectura.</h4>
-        </div>  
+            <h4>En esta página podremos ver cómo se grafican las formas cuadráticas que introduzcamos y luego ver un ejemplo en otra página de cómo se aplican a la arquitectura.</h4>
+        </div>
+        <div class="image-container">
+            <img src="../images/Cuadricas y ecuaciones reducidas.jpg" alt="imagen representacion cuadricas" width="600">
+            <div>
+                <img src="../images/Estructuras hiperboloide de una hoja.jpg" alt="ejemplo edificios" width="400">
+                <img src="../images/paraboloide hiperbolico.png" alt="ejemplo edificios" width="400">
+                <img src="../images/paraboloide eliptico.jpg" alt="ejemplo edificios" width="400">
+                <img src="../images/elipsoide.jpg" alt="ejemplo edificios" width="400">
+            </div>
+        </div>
     </body>
-    
 </html>
