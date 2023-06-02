@@ -22,18 +22,15 @@
             </nav>
         </header>
         
-          
-        <script>
-            window.onscroll = function() {scrollFunction()};
+        <div class="container-cover">
+            <div class="container-cover-info">
+                <h1>Trabajo algebra lineal.</h1>
+                <p>
+                    En esta página podremos ver cómo se grafican las formas cuadráticas que introduzcamos y luego ver un ejemplo en otra página de cómo se aplican a la arquitectura.
+                </p>
+            </div>
+        </div>
 
-            function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.display = "none";
-            } else {
-                document.getElementById("navbar").style.display = "block";
-            }
-            }
-        </script>
         <div class="container">
             <h1>Blog de Arquitectura</h1>
             <h3>Explorando la relación entre el álgebra lineal y la arquitectura</h3>
@@ -87,8 +84,18 @@
             </ul>
             <img src="../images/logo.jpg" width="200">
         </footer>
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                    document.getElementById("navbar").style.display = "none";
+                } else {
+                    document.getElementById("navbar").style.display = "block";
+                }
+            }
+        </script>
+
     </body>
 </html>
-
-
-
