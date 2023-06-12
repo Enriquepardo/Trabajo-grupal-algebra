@@ -1,6 +1,6 @@
 # Trabajo-grupal-algebra-lineal
 
-Trabajo realizado por: Lucía Mielgo, Enrique Pardo, Alejandro Martínez e Ignacio Sánchez
+<h3>PARTICIPANTES : Lucía Mielgo, Enrique Pardo, Alejandro Martínez e Ignacio Sánchez</h3>
 
 Word: https://docs.google.com/document/d/1mhjOS2QCxRIcRy1xOYAN3XXhcW30WDpuTiVBFcNlJ5Y/edit#heading=h.h5jvqmxt1o7c
 
